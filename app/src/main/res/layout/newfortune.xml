@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="New cookies"
+
+        android:id="@+id/textView"
+        android:layout_weight="0.04"
+        android:textAlignment="center"
+        android:singleLine="false"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/closed_cookie"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:id="@+id/newfortuneimage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Result"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="#87CEEB"
+        android:autoText="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Result : No Result"
+        android:id="@+id/result"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:gravity="center|start"
+        android:textSize="18dp"
+        android:paddingLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Date :      "
+        android:id="@+id/date"
+        android:layout_weight="0.04"
+        android:layout_gravity="right"
+        android:textSize="16dp"
+        android:paddingRight="20dp"
+        android:gravity="center_vertical|right"
+        android:background="#949292"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shake"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_button"
+        android:textSize="25dp" />
+
+</LinearLayout>
